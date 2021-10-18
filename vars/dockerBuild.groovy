@@ -55,13 +55,3 @@ environment {
 			  
 }
 }
-
-
-@Library('sharedlibrary')_
-dockerBuild3('<dockerHub_credential_ID>',\
-             '<dockerhub_URL>',\
-             '<tag_name>',\
-             '<container_name>',\
-             '<github_URL>',\
-             '<branch_name>',\
-             '<gitHub_credential_ID>')
